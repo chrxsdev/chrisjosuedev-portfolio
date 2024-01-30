@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  background-image: linear-gradient(
+    111.4deg,
+    rgba(7, 7, 9, 1) 6.5%,
+    rgba(27, 24, 113, 1) 93.2%
+  );
+}
+
+.nav-container {
+  padding: 10px;
+}
+
+.nav-item {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-item:hover {
+  color: #d3d3d3;
+}
+
+.main-container {
+  width: 800px;
+  height: 100%;
+  margin-bottom: 140px;
+}
+
+.sub-title,
+.code-title {
+  color: #c2c2c2;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 3.8rem;
+  background: linear-gradient(to right, #9845e8, #dd5789, #33d2ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.primary-text {
+  color: #fbf2b1;
+}
+
+.secondary-text {
+  color: #d9b2ff;
+}
+
+.title-description {
+  text-wrap: pretty;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  line-height: 1.6rem;
+}
+
+.header-ilustration {
+  width: 100%;
+}
+
+.header-container {
+  margin-top: 70px;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.btn-contact {
+  padding: 12px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+  background: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.btn-contact:hover {
+  background: linear-gradient(to left, #9c67f7, #ff77cd);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d4d2d2;
+}
+
+.timeline {
+  border-left: 3px solid #727cf5;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: 20px;
+  background: rgba(114, 124, 245, 0.09);
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline h1 {
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed #e8ebf1;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:after {
+  -webkit-box-shadow: 0 0 0 3px #727cf5;
+  box-shadow: 0 0 0 3px #727cf5;
+  left: -55.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: '';
+  top: 5px;
+}
+
+.rtl .timeline {
+  border-left: 0;
+  text-align: right;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+  left: 0;
+  right: -170px;
+}
+
+.rtl .timeline .event::after {
+  left: 0;
+  right: -55.8px;
+}
+
+.date-experience {
+  font-size: 0.7rem;
+  color: #d9b2ff;
+}
+
+.title-experience {
+  font-size: 1rem;
+}
+
+.job-description {
+  font-size: 0.9rem;
+  color: #c2c2c2;
+  text-align: left;
+  text-wrap: pretty;
+}
+
+.badge {
+  width: auto;
+  margin: 2px;
+  font-weight: 500;
+}
+
+.badge-logo {
+  margin-right: 2px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.card-text {
+  margin: 30px 0 30px;
+  color: rgb(94, 94, 94);
+  text-wrap: pretty;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.card {
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+}
+
+.project-card:hover {
+  transform: scale(1.01);
+}
+
+.about-me-photo {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.title-about {
+  text-wrap: pretty;
+  font-weight: 500;
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+.primary-about-text {
+  color: yellow;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 30px;
+  color: rgb(240, 255, 175);
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    height: 100%;
+  }
+
+  .main-container {
+    width: 400px;
+  }
+
+  .btn-contact {
+    margin: 10px;
+  }
+
+  .timeline {
+    max-width: 98%;
+    padding: 25px;
+  }
+}
