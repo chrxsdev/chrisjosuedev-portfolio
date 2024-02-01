@@ -1,8 +1,8 @@
-import { CVIcon } from "../icons/CVIcon"
-import { CodeIcon } from "../icons/CodeIcon"
-import { EmailIcon } from "../icons/EmailIcon"
-import { GithubIcon } from "../icons/GithubIcon"
-import { LinkedinIcon } from "../icons/LinkedinIcon"
+import { CVIcon } from '../icons/CVIcon'
+import { CodeIcon } from '../icons/CodeIcon'
+import { EmailIcon } from '../icons/EmailIcon'
+import { GithubIcon } from '../icons/GithubIcon'
+import { LinkedinIcon } from '../icons/LinkedinIcon'
 
 export const Header = () => {
   return (
@@ -36,7 +36,10 @@ export const Header = () => {
         </div>
       </div>
       <div className='mt-2'>
-        <a className='btn-contact rounded' href='#'>
+        <a
+          className='btn-contact rounded'
+          href='https://drive.google.com/drive/folders/1TgyK5TvGtMu37cMAAq0F2itsrgQ5tBMH?usp=sharing'
+        >
           {' '}
           <CVIcon /> Descargar CV
         </a>
