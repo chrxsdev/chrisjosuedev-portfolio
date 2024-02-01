@@ -27,7 +27,7 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/xatruch-barbershop-client',
-    demo: 'https://demo.com',
+    demo: 'https://xatruch-barbershop-client.vercel.app/',
   },
   {
     title: 'Grocery | Rest API',
@@ -57,7 +57,7 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/grocery-rest-api',
-    demo: 'https://demo.com',
+    demo: 'http://ec2-3-131-159-8.us-east-2.compute.amazonaws.com:90/api/v1/swagger-ui/index.html#/',
   },
   {
     title: 'Collaborative Events | Rest API',
@@ -116,6 +116,6 @@ export const projects = [
         color: '#f1a52e',
       },
     ],
-    paper: 'https://demo.com',
+    paper: 'https://drive.google.com/drive/folders/11m1GRJoj5_P2s8bnM_dcjHV09qPzwNKP?usp=sharing',
   },
 ]

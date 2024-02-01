@@ -62,14 +62,14 @@ export const App = () => {
               </p>
               <p className='title-about'>
                 👩🏻‍💻 Mi experiencia en proyectos y formación académica me ha proporcionado las
-                herramientas que me han permitido{' '}
+                herramientas para{' '}
                 <span className='primary-about-text'>
                   adaptarme a cualquier entorno y tecnología.
                 </span>{' '}
               </p>
               <p className='title-about'>
                 🧐 Busco oportunidades desafiantes en donde pueda aplicar mis habilidades
-                técnicas y blandas, para de esta forma contribuir al éxito del equipo y sobre
+                técnicas y blandas, para así contribuir al éxito del equipo y sobre
                 todo: <span className='primary-about-text'>¡Colaborar con los mejores!</span>{' '}
               </p>
             </div>
