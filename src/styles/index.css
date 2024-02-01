@@ -262,10 +262,17 @@ body {
 @media screen and (max-width: 767px) {
   body {
     height: 100%;
+    width: 100%;
+  }
+
+  .about-me-photo {
+    width: 280px;
+    height: 280px;
+    margin-left: 20px;
   }
 
   .main-container {
-    width: 400px;
+    width: 300px;
   }
 
   .btn-contact {
