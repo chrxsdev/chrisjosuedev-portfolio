@@ -57,7 +57,7 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/grocery-rest-api',
-    demo: 'http://ec2-3-131-159-8.us-east-2.compute.amazonaws.com:90/api/v1/swagger-ui/index.html#/',
+    demo: 'https://grocery-api-tlfh.onrender.com/api/v1/swagger-ui/index.html',
   },
   {
     title: 'Collaborative Events | Rest API',
@@ -82,7 +82,7 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/calendar-rest-api',
-    demo: 'http://ec2-3-144-222-220.us-east-2.compute.amazonaws.com:90/api/swagger-ui/index.html',
+    demo: 'https://events-api-ch4j.onrender.com/api/swagger-ui/index.html',
   },
   {
     title: 'Analisis y Diseño de Sistema para Gestión de Pacientes',
