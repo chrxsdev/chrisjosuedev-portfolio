@@ -57,6 +57,7 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/grocery-rest-api',
+    demo: 'https://documenter.getpostman.com/view/21748987/2s93m354Jn'
   },
   {
     title: 'Collaborative Events | Rest API',
