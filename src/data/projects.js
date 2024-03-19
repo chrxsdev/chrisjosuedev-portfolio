@@ -57,7 +57,6 @@ export const projects = [
       },
     ],
     github: 'https://github.com/chrisjosuedev/grocery-rest-api',
-    demo: 'https://grocery-api-tlfh.onrender.com/api/v1/swagger-ui/index.html',
   },
   {
     title: 'Collaborative Events | Rest API',

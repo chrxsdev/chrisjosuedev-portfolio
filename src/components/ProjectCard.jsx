@@ -1,6 +1,6 @@
 import { DemoIcon } from './icons/DemoIcon'
 import { GithubIcon } from './icons/GithubIcon'
-import { TesisIcon } from "./icons/TesisIcon"
+import { TesisIcon } from './icons/TesisIcon'
 
 export const ProjectCard = ({ title, description, img, stack, github, demo, paper }) => {
   return (
@@ -26,20 +26,15 @@ export const ProjectCard = ({ title, description, img, stack, github, demo, pape
           </span>
         ))}
         <div className='mt-4'>
-          {(github && demo) && (
-            <>
-              <a
-                href={github}
-                className='btn-contact rounded'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <GithubIcon /> Repo
-              </a>
-              <a href={demo} className='btn-contact rounded' target='_blank' rel='noreferrer'>
-                <DemoIcon /> Demo
-              </a>
-            </>
+          {github && (
+            <a href={github} className='btn-contact rounded' target='_blank' rel='noreferrer'>
+              <GithubIcon /> Repo
+            </a>
+          )}
+          {demo && (
+            <a href={demo} className='btn-contact rounded' target='_blank' rel='noreferrer'>
+              <DemoIcon /> Demo
+            </a>
           )}
           {paper && (
             <a href={paper} className='btn-contact rounded' target='_blank' rel='noreferrer'>

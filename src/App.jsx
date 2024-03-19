@@ -61,15 +61,12 @@ export const App = () => {
                 React y Nodejs.
               </p>
               <p className='title-about'>
-                👩🏻‍💻 Mi experiencia en proyectos y formación académica me ha proporcionado las
-                herramientas para{' '}
-                <span className='primary-about-text'>
-                  adaptarme a cualquier entorno y tecnología.
-                </span>{' '}
+                👩🏻‍💻 Cuento con experiencia en el análisis, diseño y desarrollo de sistemas,
+                aplicaciones web y APIs. Enfocado en la creación e implementación de soluciones{' '}
+                <span className='primary-about-text'>únicas, creativas e innovadoras.</span>
               </p>
               <p className='title-about'>
-                🧐 Busco oportunidades desafiantes en donde pueda aplicar mis habilidades
-                técnicas y blandas, para así contribuir al éxito del equipo y sobre
+                🧐 Busco oportunidades desafiantes, contribuir al éxito del equipo y sobre
                 todo: <span className='primary-about-text'>¡Colaborar con los mejores!</span>{' '}
               </p>
             </div>
