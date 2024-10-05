@@ -1,12 +1,12 @@
-import { JobCard } from './components/JobCard'
-import { ProjectCard } from './components/ProjectCard'
-import { AboutIcon } from './components/icons/AboutIcon'
-import { ExperienceIcon } from './components/icons/ExperienceIcon'
-import { ProjectIcon } from './components/icons/ProjectIcon'
-import { Header } from './components/ui/Header'
-import { NavBar } from './components/ui/NavBar'
-import { projects } from './data/projects'
-import { workExperience } from './data/workExperience'
+import { JobCard } from './components/JobCard';
+import { ProjectCard } from './components/ProjectCard';
+import { AboutIcon } from './components/icons/AboutIcon';
+import { ExperienceIcon } from './components/icons/ExperienceIcon';
+import { ProjectIcon } from './components/icons/ProjectIcon';
+import { Header } from './components/ui/Header';
+import { NavBar } from './components/ui/NavBar';
+import { projects } from './data/projects';
+import { workExperience } from './data/workExperience';
 
 export const App = () => {
   return (
@@ -56,31 +56,31 @@ export const App = () => {
           <div className='row mt-4'>
             <div className='col-md-6 p-4' style={{ marginTop: '20px' }}>
               <p className='title-about'>
-                ⚡️ Me llamo Cristhian J. Martínez Lara, soy un desarrollor{' '}
-                <span className='primary-about-text'>Back-End y FullStack</span> con Java,
-                React y Nodejs.
+                ⚡️ Me llamo Cristhian J. Martínez Lara, soy un Ingeniero y desarrollador{' '}
+                <span className='primary-about-text'>Back-End y Full-Stack.</span>
               </p>
               <p className='title-about'>
-                👩🏻‍💻 Cuento con experiencia en el análisis, diseño y desarrollo de sistemas,
-                aplicaciones web y APIs. Enfocado en la creación e implementación de soluciones{' '}
-                <span className='primary-about-text'>únicas, creativas e innovadoras.</span>
+                👩🏻‍💻 Cuento con experiencia en el análisis, diseño y desarrollo de sistemas, aplicaciones web y APIs.
+                Enfocado en la creación e implementación de soluciones únicas, creativas e innovadoras. Enfocado en la
+                creación e implementación de soluciones <span className='primary-about-text'> únicas y creativas </span>{' '}
+                orientadas a la{' '}
+                <span className='primary-about-text'>
+                  {' '}
+                  resolución de problemas, autodidacta y con alta orientación a la investigación.{' '}
+                </span>
               </p>
               <p className='title-about'>
-                🧐 Busco oportunidades desafiantes, contribuir al éxito del equipo y sobre
-                todo: <span className='primary-about-text'>¡Colaborar con los mejores!</span>{' '}
+                🧐 Busco oportunidades desafiantes, contribuir al éxito del equipo y sobre todo:{' '}
+                <span className='primary-about-text'>Colaborar y estar rodeado de los mejores.</span>{' '}
               </p>
             </div>
             <div className='col-md-6'>
-              <img
-                className='about-me-photo rounded-circle'
-                src='/assets/aboutme.jpg'
-                alt='aboutme'
-              />
+              <img className='about-me-photo rounded-circle' src='/assets/aboutme-2.jpg' alt='aboutme' />
             </div>
           </div>
         </div>
       </main>
       <footer className='footer'>© 2024 Cristhian J. Martínez Lara</footer>
     </div>
-  )
-}
+  );
+};

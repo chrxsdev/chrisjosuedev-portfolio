@@ -3,7 +3,13 @@ export const JobCard = ({ date, job, description }) => {
     <>
       <p className='date-experience'>{date}</p>
       <h4 className='title-experience primary-text'>{job}</h4>
-      <p className='job-description'>{description}</p>
+      <div className='job-description'>
+        <ul>
+          {description.map((des, i) => (
+            <li key={i}>{des}</li>
+          ))}
+        </ul>
+      </div>
     </>
-  )
-}
+  );
+};

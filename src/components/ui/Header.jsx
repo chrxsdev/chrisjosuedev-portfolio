@@ -1,8 +1,8 @@
-import { CVIcon } from '../icons/CVIcon'
-import { CodeIcon } from '../icons/CodeIcon'
-import { EmailIcon } from '../icons/EmailIcon'
-import { GithubIcon } from '../icons/GithubIcon'
-import { LinkedinIcon } from '../icons/LinkedinIcon'
+import { CVIcon } from '../icons/CVIcon';
+import { CodeIcon } from '../icons/CodeIcon';
+import { EmailIcon } from '../icons/EmailIcon';
+import { GithubIcon } from '../icons/GithubIcon';
+import { LinkedinIcon } from '../icons/LinkedinIcon';
 
 export const Header = () => {
   return (
@@ -16,9 +16,7 @@ export const Header = () => {
             <CodeIcon />
             <span className='sub-title'>
               {' '}
-              <code className='code-title'>
-                System.out.println(&quot;Hello, world!&quot;)
-              </code>{' '}
+              <code className='code-title'>System.out.println(&quot;Hello, world!&quot;)</code>{' '}
             </span>
           </div>
           <div>
@@ -29,8 +27,7 @@ export const Header = () => {
               <img src='/assets/flag.svg' alt='flag' /> para el mundo.
             </p>
             <p className='title-description'>
-              Me enfoco en crear{' '}
-              <span className='secondary-text'>aplicaciones innovadoras.</span>{' '}
+              Me enfoco en crear <span className='secondary-text'>aplicaciones innovadoras.</span>{' '}
             </p>
           </div>
         </div>
@@ -39,6 +36,8 @@ export const Header = () => {
         <a
           className='btn-contact rounded'
           href='https://drive.google.com/drive/folders/1TgyK5TvGtMu37cMAAq0F2itsrgQ5tBMH?usp=sharing'
+          target='_blank'
+          rel='noreferrer'
         >
           {' '}
           <CVIcon /> Descargar CV
@@ -51,12 +50,7 @@ export const Header = () => {
         >
           <LinkedinIcon /> Linkedin
         </a>
-        <a
-          className='btn-contact rounded'
-          href='https://github.com/chrisjosuedev'
-          target='_blank'
-          rel='noreferrer'
-        >
+        <a className='btn-contact rounded' href='https://github.com/chrisjosuedev' target='_blank' rel='noreferrer'>
           <GithubIcon /> Github
         </a>
         <a
@@ -69,5 +63,5 @@ export const Header = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
