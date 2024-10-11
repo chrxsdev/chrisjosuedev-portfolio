@@ -61,17 +61,12 @@ export const App = () => {
               </p>
               <p className='title-about'>
                 👩🏻‍💻 Cuento con experiencia en el análisis, diseño y desarrollo de sistemas, aplicaciones web y APIs.
-                Enfocado en la creación e implementación de soluciones únicas, creativas e innovadoras. Enfocado en la
-                creación e implementación de soluciones <span className='primary-about-text'> únicas y creativas </span>{' '}
-                orientadas a la{' '}
-                <span className='primary-about-text'>
-                  {' '}
-                  resolución de problemas, autodidacta y con alta orientación a la investigación.{' '}
-                </span>
+                Enfocado en la
+                creación e implementación de soluciones <span className='primary-about-text'> únicas y creativas. </span>
               </p>
               <p className='title-about'>
                 🧐 Busco oportunidades desafiantes, contribuir al éxito del equipo y sobre todo:{' '}
-                <span className='primary-about-text'>Colaborar y estar rodeado de los mejores.</span>{' '}
+                <span className='primary-about-text'>Colaborar con los mejores.</span>{' '}
               </p>
             </div>
             <div className='col-md-6'>
