@@ -3,7 +3,7 @@ export const workExperience = [
     date: 'Junio 2024 - Actualmente',
     job: 'Nodejs Developer | CDE-MIPYME CND Proyecto SSE Y MIPYME Digital',
     description: [
-      `Desarrollé el flujo completo para la gestión de solicitudes de prórrogas con NestJS, implementando validaciones y tareas CRON que archivan automáticamente solicitudes no atendidas, eliminando la necesidad de análisis manual y asegurando el cumplimiento de plazos`,
+      `Responsable del mantenimiento y mejora continua de la plataforma con Nestjs, implementando características clave que mejoraron la funcionalidad del sistema enfocada en la escalabilida, asegurando que la plataforma se mantuviera eficiente bajo cargas de trabajo crecientes.`,
       `Refactoricé el módulo de generación de PDFs, mejorando significativamente su escalabilidad y mantenibilidad. Además, corregí errores críticos en la generación de documentos y códigos QR.`,
       `Implementé mejoras en los endpoints, optimizando las consultas a la base de datos y reduciendo los tiempos de carga en un 80%.`,
     ],
