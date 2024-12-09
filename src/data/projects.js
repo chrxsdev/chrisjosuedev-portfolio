@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Xatruch App | FullStack Application',
     description:
-      'Aplicación Web para el control y agenda de citas. Desarrollado con React, Bootstrap y Java.',
+      'Aplicación Web para el control y agenda de citas. Desarrollado con React y Java (Spring Boot).',
     img: '/projects-img/xatruch-mockup.png',
     stack: [
       {
