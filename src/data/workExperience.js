@@ -3,9 +3,8 @@ export const workExperience = [
     date: 'Enero 2025 - Actualmente',
     job: 'Software Developer | Acklen Avenue',
     description: [
-      `Desarrollo de una aplicación web moderna de pedidos con procesamiento de pagos integrado en el frontend, mejorando la confiabilidad de las transacciones y la satisfacción del usuario, asegurando una arquitectura limpia y reutilización de código.`,
-      `Contribuí al desarrollo frontend y backend utilizando un ecosistema full-stack de JavaScript/TypeScript, garantizando consistencia y alto rendimiento en toda la aplicación.`,
-      `Colaboré con equipos multidisciplinarios y multifuncionales en entornos ágiles para entregar funcionalidades de manera eficiente e iterativa.`,
+      `Desarrollo frontend y backend utilizando un ecosistema full-stack de JavaScript/TypeScript, garantizando consistencia y alto rendimiento en toda la aplicación.`,
+      `Colaboración con equipos multidisciplinarios y multifuncionales en entornos ágiles para entregar funcionalidades de manera eficiente e iterativa.`,
     ],
   },
   {
