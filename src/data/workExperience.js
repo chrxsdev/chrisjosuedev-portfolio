@@ -1,6 +1,15 @@
 export const workExperience = [
   {
-    date: 'Junio 2024 - Actualmente',
+    date: 'Enero 2025 - Actualmente',
+    job: 'Software Developer | Acklen Avenue',
+    description: [
+      `Desarrollo de una aplicación web moderna de pedidos con procesamiento de pagos integrado en el frontend, mejorando la confiabilidad de las transacciones y la satisfacción del usuario, asegurando una arquitectura limpia y reutilización de código.`,
+      `Contribuí al desarrollo frontend y backend utilizando un ecosistema full-stack de JavaScript/TypeScript, garantizando consistencia y alto rendimiento en toda la aplicación.`,
+      `Colaboré con equipos multidisciplinarios y multifuncionales en entornos ágiles para entregar funcionalidades de manera eficiente e iterativa.`,
+    ],
+  },
+  {
+    date: 'Junio 2024 - Diciembre 2024',
     job: 'Nodejs Developer | CDE-MIPYME CND Proyecto SSE Y MIPYME Digital',
     description: [
       `Responsable del mantenimiento y mejora continua de la plataforma con Nestjs, implementando características clave que mejoraron la funcionalidad del sistema enfocada en la escalabilida, asegurando que la plataforma se mantuviera eficiente bajo cargas de trabajo crecientes.`,
